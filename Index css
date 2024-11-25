@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #444;
+}
+.book {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+}
+.book h3 {
+    margin: 0.5rem 0;
+}
+.donate-btn {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.donate-btn:hover {
+    background: #0056b3;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+.qr-code {
+    margin-top: 0.5rem;
+    max-width: 150px;
+    height: auto;
+}￼Enter
